@@ -1,14 +1,21 @@
 <template>
-  <nav>
-    <router-link to="/">Pasteleria</router-link> |
-    <router-link to="/about">Pastelero</router-link>
-  </nav>
-  <router-view/>
+    <header>
+        <div class="logo">
+            <h1>Dev-Bakery</h1>
+        </div>
+        <div class="nav-container">
+        <nav>
+            <router-link to="/">Pasteleria</router-link> |
+            <router-link to="/about">Pastelero</router-link>
+        </nav>
+        </div>
+    </header>
+    <router-view/>
 </template>
 
 <style>
-:root {
-    /* Agrega las fuentes aqui */
+:root{
+    --mainFont: 'Ubuntu', sans-serif;
 }
 html{
     box-sizing: border-box;
@@ -20,7 +27,7 @@ html{
     box-sizing: inherit;
 }
 body{
-    font-family: /*Agrega la fuente de prefenecia*/;
+    font-family: var(--mainFont);
     font-size: 1.6rem;
     line-height: 2rem;
 }
@@ -32,9 +39,6 @@ body{
 }
 a{
     text-decoration: none;
-}
-h1,h2,h3,h4{
-    font-family: /*Agrega la variable de feunte de preferencia*/;
 }
 h1{
     font-size: 4.8rem;
@@ -61,5 +65,13 @@ img{
 .text-center{
     text-align: center;
 }
-
+nav a.router-link-exact-active {
+  color: #42b983;
+}
+/* Header section */
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 </style>
