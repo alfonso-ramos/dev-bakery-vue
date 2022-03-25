@@ -1,9 +1,12 @@
 <template>
   <div class="home">
-    <Information></Information>
-    <Sabores></Sabores>
-    <Adornos></Adornos>
-    <FormUser></FormUser>
+    <div class="container">
+      <Information></Information>
+      <Sabores></Sabores>
+      <Adornos></Adornos>
+      <FormUser></FormUser>
+    </div>
+
   </div>
 </template>
 

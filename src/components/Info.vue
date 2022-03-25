@@ -21,9 +21,17 @@ export default {
   .info-container{
     display: flex;
     flex-direction: column;
+    margin-bottom: 5rem;
   }
   .info-container .info-img img{
-    width: 30rem;
-    height: 20rem;
+    width: 40rem;
+    height: 30rem;
+  }
+  @media (min-width: 768px){
+    .info-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
   }
 </style>

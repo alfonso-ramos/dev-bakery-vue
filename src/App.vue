@@ -46,12 +46,6 @@ h1{
 h2{
     font-size: 4rem;
 }
-h3{
-    font-size: 3.2rem;
-}
-h4{
-    font-size: 2.8rem;
-}
 img{
     max-width: 100%;
 }
@@ -66,12 +60,21 @@ img{
     text-align: center;
 }
 nav a.router-link-exact-active {
-  color: #42b983;
+    color: #42b983;
 }
 /* Header section */
 header{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 4rem;
 }
+@media (min-width: 768px){
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
 </style>

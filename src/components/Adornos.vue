@@ -1,18 +1,12 @@
 <template>
-  <div class="adornos-container">
-      <div class="adorno">
-          <img src="" alt="Adorno">
-          <p>Adorno</p>
-      </div>
-      <div class="adorno">
-          <img src="" alt="Adorno">
-          <p>Adorno</p>
-      </div>
-      <div class="adorno">
-          <img src="" alt="Adorno">
-          <p>Adorno</p>
-      </div>
-  </div>
+    <h2>Adornos</h2>
+    <div class="adornos-container">
+        <div class="adorno">
+            <img src="../assets/letrero-fc.webp" alt="Adorno">
+            <p>Letrero "Feliz Cumpleaños"</p>
+            <p>$40</p>
+        </div>
+    </div>
 </template>
 
 <script>
