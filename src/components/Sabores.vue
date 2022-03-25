@@ -39,6 +39,11 @@ export default {
         padding: 2rem 3rem;
         border: 3px solid #42b983;
         border-radius: 2rem;
+        margin-bottom: 4rem;
+    }
+    .sabores-container .sabor img{
+        width: auto;
+        height: auto;
     }
     .pedido{
         background-color: #551a8b;
@@ -46,6 +51,13 @@ export default {
         height: 3rem;
         padding: 0 1rem;
         color: white;
-        font
+        font-weight: bold;
+    }
+    @media (min-width: 768px){
+        .sabores-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 4rem;
+        }
     }
 </style>

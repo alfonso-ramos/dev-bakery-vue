@@ -68,6 +68,8 @@ header{
     flex-direction: column;
     text-align: center;
     margin-bottom: 4rem;
+    -webkit-box-shadow: 0px 0px 16px -12px #000000; 
+    box-shadow: 0px 6px 16px -12px #000000;
 }
 @media (min-width: 768px){
     header{

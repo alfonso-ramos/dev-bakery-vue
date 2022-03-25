@@ -5,6 +5,7 @@
       <Sabores></Sabores>
       <Adornos></Adornos>
       <FormUser></FormUser>
+      <Footer></Footer>
     </div>
 
   </div>
@@ -15,6 +16,7 @@ import Information from '@/components/Info.vue';
 import Sabores from '@/components/Sabores.vue';
 import Adornos from '@/components/Adornos.vue';
 import FormUser from '@/components/FormUser.vue';
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'HomeView',
@@ -22,7 +24,8 @@ export default {
     Information,
     Sabores,
     Adornos,
-    FormUser
+    FormUser,
+    Footer
   }
 }
 </script>
