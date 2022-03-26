@@ -4,10 +4,10 @@
             <h1>Dev-Bakery</h1>
         </div>
         <div class="nav-container">
-        <nav>
-            <router-link to="/">Pasteleria</router-link> |
-            <router-link to="/about">Pastelero</router-link>
-        </nav>
+            <nav>
+                <router-link to="/">Pasteleria</router-link> |
+                <router-link to="/pastelero">Pastelero</router-link>
+            </nav>
         </div>
     </header>
     <router-view/>
